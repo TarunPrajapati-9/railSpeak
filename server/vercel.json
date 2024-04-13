@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "RailSpeaks_APIs",
+    "builds": [
+        { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/app.js" }
+    ]
+}
